@@ -22,7 +22,7 @@ When project directory is setup, you can now copy our test spider code:
 
 1. Open Terminal/Command prompt.
 2. Open your project folder using `cd .\yourprojectname\yourprojectname\spiders\`
-3. Run command `curl https://raw.githubusercontent.com/Smartproxy/Smartproxy/master/scrapy/smartproxy_spider.py > smartproxy_spider.py`
+3. Run command `curl https://raw.githubusercontent.com/Smartproxy/Scrapy/master/smartproxy_spider.py > smartproxy_spider.py`
 4. Run the script using `scrapy crawl smartproxy` command.
 <img src="https://content.screencast.com/users/JohanSP/folders/Jing/media/79c69577-0034-40e8-b1e5-161cad99031a/2019-03-08_1627.png">
 
