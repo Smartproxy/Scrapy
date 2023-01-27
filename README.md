@@ -29,7 +29,8 @@ When project directory is setup, you can now download our test spider code:
 
 1. Make sure to open the exact location in your project folder using `cd .\yourprojectname\yourprojectname\spiders\`
 2. To download our example script, run command `curl https://raw.githubusercontent.com/Smartproxy/Scrapy/master/smartproxy_spider.py > smartproxy_spider.py`
-3. Run the script using `scrapy crawl smartproxy` command.
+3. Open the `smartproxy_spider.py` file and enter your Endpoint, Port as well as replace the Username, Password with your proxy authentication credentials.
+4. Run the script using `scrapy crawl smartproxy` command.
 <img src="https://content.screencast.com/users/JohanSP/folders/Jing/media/79c69577-0034-40e8-b1e5-161cad99031a/2019-03-08_1627.png">
 
 Note that the code may not run if the `smartproxy_spider.py` file is in the wrong directory.
