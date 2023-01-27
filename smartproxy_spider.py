@@ -6,19 +6,19 @@ class SmartproxySpider(scrapy.Spider):
 
     def start_requests(self):
         urls = [
-            'https://www.whatismyip.com/'
+             'https://books.toscrape.com/'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse,
-                meta={'proxy': 'https://gate.smartproxy.com:7000'}, ## Your desired Endpoint
+                meta={'proxy': 'ENDPOINT:PORT'}, ## Your desired Endpoint
                 headers={
                         'Proxy-Authorization': basic_auth_header(
                         'username', 'password') ## Your username and password for the proxy user
                 }
             )
-
     def parse(self, response):
-        for data in response.css('ul.list-group.text-center'):
+            price = response.xpath('//p[@class="price_color"]/text()').get()
             yield {
-                'ip': data.css('li.list-group-item::text').get(),
+                'price': price,
             }
+            
