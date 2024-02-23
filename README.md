@@ -1,4 +1,4 @@
-<p align="center">
+![2019-03-08_1627](https://github.com/Smartproxy/Scrapy/assets/160615885/482fc7fc-ac4e-443d-a763-23ac91e856af)<p align="center">
     <a href="https://smartproxy.com/"><img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="Smartproxy logo" width="200" height="50"></a>
   </a>
 </p>
@@ -10,7 +10,7 @@
 ### Disclaimer
 
 The following example is a simple script showing how to utilize Smartproxy with Scrapy.
-We suggest to reseach [Scrapy](https://docs.scrapy.org/en/latest/) documentation in order to continue development with this tool.
+We suggest to research [Scrapy](https://docs.scrapy.org/en/latest/) documentation in order to continue development with this tool.
 
 ### Prerequisites
 
@@ -18,12 +18,12 @@ To get started with Scrapy you will first need to install it using methods provi
 
 ### Installation
 
-Once you get Scrapy up and running if you have not yet, make sure that you create your project folder. Open the Terminal/Command prompt window and enter the command bellow:
+Once you get Scrapy up and running if you have not yet, make sure that you create your project folder. Open the Terminal/Command prompt window and enter the command below:
 
 ```
 scrapy startproject yourprojectname
 ```
-<img src="https://content.screencast.com/users/JohanSP/folders/Jing/media/f974b1de-dc9c-4d53-9d43-9215f8742dc9/startproject.png">
+<img src="https://i.imgur.com/YWqkKAS.png" alt="starting scrapy project in anaconda prompt">
 
 When project directory is setup, you can now download our test spider code: 
 
@@ -31,7 +31,7 @@ When project directory is setup, you can now download our test spider code:
 2. To download our example script, run command `curl https://raw.githubusercontent.com/Smartproxy/Scrapy/master/smartproxy_spider.py > smartproxy_spider.py`
 3. Open the `smartproxy_spider.py` file and enter your Endpoint, Port as well as replace the Username, Password with your proxy authentication credentials.
 4. Run the script using `scrapy crawl smartproxy` command.
-<img src="https://content.screencast.com/users/JohanSP/folders/Jing/media/79c69577-0034-40e8-b1e5-161cad99031a/2019-03-08_1627.png">
+<img src="https://i.imgur.com/fkgr0ep.png" alt="running scrapy crawl script in anaconda prompt">
 
 Note that the code may not run if the `smartproxy_spider.py` file is in the wrong directory.
 
@@ -39,9 +39,9 @@ Note that the code may not run if the `smartproxy_spider.py` file is in the wron
 
 As mentioned this script only sends a basic request to return a value from the target website.
 
-If you done all the steps correctly, you should see the result as `{'price': '£51.77'}` along with other actions performed by Scrapy in the Terminal window.
+If you have done all the steps correctly, you should see the result as `{'price': '£51.77'}` along with other actions performed by Scrapy in the Terminal window.
 
-<img src="https://snipboard.io/0dr1Ch.jpg">
+<img src="https://snipboard.io/0dr1Ch.jpg" alt="crawling results from target website in terminal window">
 
 ## Need help?
 Email - sales@smartproxy.com
