@@ -1,4 +1,4 @@
-![2019-03-08_1627](https://github.com/Smartproxy/Scrapy/assets/160615885/482fc7fc-ac4e-443d-a763-23ac91e856af)<p align="center">
+<p align="center">
     <a href="https://smartproxy.com/"><img src="https://smartproxy.com/wp-content/themes/smartproxy/images/smartproxy-logo.svg" alt="Smartproxy logo" width="200" height="50"></a>
   </a>
 </p>
