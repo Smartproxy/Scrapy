@@ -10,7 +10,7 @@ class SmartproxySpider(scrapy.Spider):
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse,
-                meta={'proxy': 'ENDPOINT:PORT'}, ## Your desired Endpoint
+                meta={'proxy': 'http://ENDPOINT:PORT'}, ## Your desired Endpoint
                 headers={
                         'Proxy-Authorization': basic_auth_header(
                         'username', 'password') ## Your username and password for the proxy user
